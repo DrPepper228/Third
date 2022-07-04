@@ -1,0 +1,16 @@
+package com.commands;
+
+public enum CommandsType {
+    CREATE_RECEPTION,
+    CREATE_PACIENT,
+    CREATE_DOCTOR,
+    PRINT_RECEPTION,
+    PRINT_PACIENT,
+    EDIT_RECEPTION,
+    EDIT_PACIENT,
+    DELETE_PACIENT,
+    PRINT_DOCTOR,
+
+    EXIT,
+    UNDEFINED
+}
